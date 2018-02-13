@@ -57,7 +57,10 @@ kramdown:
 
 # 评论系统
 #Disqus（https://disqus.com/）
-disqus_username: disqus_HLDKY2zfmM
+disqus_username: Joysisyphus
+
+# Netease setttings
+netease_comment: false
 
 # Gitalk
 # gitalk:
