@@ -1,14 +1,14 @@
-# BY Blog
+# Joysisyphus Blog
 
-> 下面是博客的搭建教程，这个教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 。
+<!-- > 下面是博客的搭建教程，这个教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 。
 > 
-> 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 
+> 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)  -->
 > 
-### [我的博客在这里 &rarr;](http://qiubaiying.github.io)
+### [我的博客在这里 &rarr;](http://MySadCaptain.github.io)
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+![](https://raw.githubusercontent.com/MySadCaptain/MySadCaptain.github.io/master/img/screenshot.png)
 
-
+<!-- 
 ## 使用
 
 * 开始
@@ -260,11 +260,12 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
 
-
+ -->
 ## 致谢
 
-1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。 
-2. 感谢 Jekyll、Github Pages 和 Bootstrap!
+1. 这个模板是从这里 [BY Blog](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢这个作者。 
+2.顺带感谢下[原作者](https://github.com/Huxpro/huxpro.github.io) 
+3. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 ## License
 
