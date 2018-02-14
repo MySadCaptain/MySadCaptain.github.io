@@ -51,16 +51,16 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
 
 
 # 评论系统
 #Disqus（https://disqus.com/）
-disqus_username: Joysisyphus
+comments: true
 
 # Netease setttings
-netease_comment: false
+# netease_comment: false
 
 # Gitalk
 # gitalk:
