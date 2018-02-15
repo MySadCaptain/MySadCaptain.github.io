@@ -39,6 +39,7 @@
   width: 80%;
   display: block;
   border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.1) 0 0 5px;
   margin-bottom: 20px;
 }
 .sidebar-container .short-about p {
