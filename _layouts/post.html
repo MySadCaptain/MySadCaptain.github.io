@@ -81,7 +81,9 @@ layout: default
                     {% endif %}
                 </ul>
 
-
+                <hr style="visibility: hidden;">
+                
+                
                 <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
                 <!-- 引入Gitalk评论插件  -->
@@ -104,6 +106,7 @@ layout: default
                 <!-- Gitalk end -->
                 
                 {% if page.comments %}
+                <div class="comment">
                 <div id="disqus_thread"></div>
                 <script>
 
@@ -127,6 +130,7 @@ layout: default
                 {% endif %} 
      
 
+            </div>
             </div>  
 
     <!-- Side Catalog Container -->
@@ -153,7 +157,7 @@ layout: default
                 sidebar-container">
 
                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
+              <!--   {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
@@ -167,7 +171,7 @@ layout: default
         				{% endfor %}
         			</div>
                 </section>
-                {% endif %}
+                {% endif %} -->
 
                 <!-- Friends Blog -->
                 {% if site.friends %}
