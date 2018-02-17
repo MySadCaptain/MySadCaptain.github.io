@@ -138,7 +138,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: #404040;
+  color: rgba(0, 0, 0, 0.6);
   overflow-x: hidden;
 }
 p {
@@ -163,7 +163,7 @@ h4 {
   font-size: 21px;
 }
 a {
-  color: #404040;
+  color: rgba(0, 0, 0, 0.6);
 }
 a:hover,
 a:focus {
@@ -474,14 +474,14 @@ pre code {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: rgba(0, 0, 0, 0.6);
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: rgba(0, 0, 0, 0.6);
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -606,7 +606,7 @@ pre code {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: rgba(0, 0, 0, 0.6);
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -635,7 +635,7 @@ pre code {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: rgba(0, 0, 0, 0.6);
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -805,7 +805,7 @@ form .row:first-child .floating-label-form-group {
   }
 }
 .pager li > a {
-  color: #404040;
+  color: rgba(0, 0, 0, 0.6);
 }
 .pager li > a:hover,
 .pager li > a:focus {
@@ -822,7 +822,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: rgba(0, 0, 0, 0.6);
   cursor: not-allowed;
 }
 ::-moz-selection {
