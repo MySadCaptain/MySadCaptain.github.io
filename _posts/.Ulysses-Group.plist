@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>childOrder</key>
+	<array/>
 	<key>resolutionData</key>
 	<dict>
+		<key>childOrder</key>
+		<dict/>
 		<key>sheetClusters</key>
 		<dict>
 			<key>2.md</key>
@@ -20,84 +24,112 @@
 					<integer>5</integer>
 				</dict>
 			</dict>
-			<key>2015-01-01-2014电影十佳.md</key>
+			<key>2015-01-01-2014电影十佳 - 2.md</key>
 			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>540632002.83401</real>
 				<key>lastModification</key>
-				<real>540630843.29486597</real>
+				<real>540632002.83401</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>12</integer>
+				</dict>
+			</dict>
+			<key>2015-01-01-2014电影十佳.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>540678808.81897795</real>
+				<key>version</key>
+				<dict>
+					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
+					<integer>36</integer>
 				</dict>
 			</dict>
 			<key>2017-01-01-2016电影十佳.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486597</real>
+				<real>540679937.525419</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>37</integer>
 				</dict>
 			</dict>
 			<key>2017-12-17-猜你喜欢的尽头：Pandora.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486704</real>
+				<real>540680148.74081695</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>38</integer>
 				</dict>
 			</dict>
 			<key>2017-12-19-一份很长的歌单.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486704</real>
+				<real>540680333.32662499</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>39</integer>
 				</dict>
 			</dict>
 			<key>2017-12-26-2017电影十佳.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486799</real>
+				<real>540680516.37244999</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>40</integer>
 				</dict>
 			</dict>
 			<key>2018-01-01-2017电视剧十佳.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486799</real>
+				<real>540680750.57257402</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>41</integer>
 				</dict>
 			</dict>
 			<key>2018-01-03-2017数码产品Top 5.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486799</real>
+				<real>540681380.02538896</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>42</integer>
 				</dict>
 			</dict>
 			<key>2018-01-20-信息输入自动化.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>540630843.29486895</real>
+				<real>540681402.94345295</real>
 				<key>version</key>
 				<dict>
 					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-					<integer>2</integer>
+					<integer>43</integer>
+				</dict>
+			</dict>
+			<key>Untitled.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>540632143.00008404</real>
+				<key>lastModification</key>
+				<real>540632143.00008404</real>
+				<key>version</key>
+				<dict>
+					<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
+					<integer>18</integer>
 				</dict>
 			</dict>
 		</dict>
@@ -108,6 +140,12 @@
 	<array>
 		<array>
 			<string>2.md</string>
+		</array>
+		<array>
+			<string>2015-01-01-2014电影十佳 - 2.md</string>
+		</array>
+		<array>
+			<string>Untitled.md</string>
 		</array>
 		<array>
 			<string>2015-01-01-2014电影十佳.md</string>
@@ -140,10 +178,15 @@
 	<integer>1</integer>
 	<key>versioning</key>
 	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
+			<integer>1</integer>
+		</dict>
 		<key>sheetClusters</key>
 		<dict>
 			<key>a37edd2aaf04a8f425d01560ec57ad9b8fa5a793b74ae1a29108d08e7d8596d4</key>
-			<integer>5</integer>
+			<integer>43</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
