@@ -633,6 +633,13 @@ pre code {
   font-style: italic;
   margin-top: 0;
 }
+.post-preview > .post-metadate {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  /*font-style: italic;*/
+  margin-top: 0;
+}
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
@@ -951,6 +958,14 @@ img::-moz-selection {
   font-size: 12px;
 }
 .one-tag-list .post-preview > .post-meta {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 12px;
+}
+.one-tag-list .post-preview > .post-metadate {
   position: absolute;
   right: 5px;
   bottom: 0px;
