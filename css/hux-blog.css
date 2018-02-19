@@ -987,6 +987,14 @@ img::-moz-selection {
   .one-tag-list .post-preview .post-meta {
     font-size: 18px;
   }
+  .one-tag-list .post-preview > .post-metadate {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 12px;
+}
 }
 /* Tags support End*/
 /* Hux make all img responsible in post-container */
