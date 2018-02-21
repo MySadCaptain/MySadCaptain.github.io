@@ -58,11 +58,7 @@ header-img: "img/tag-bg.jpg"
                 </h3>
                 {% endif %}
             </a>
-            <div class="post-metadate">
-                <span class="fa fa-calendar "></span>
-                <span>{{ post.date | date:"%m-%d" }}</span>
-            </div>  
-            <!-- <p class="post-metadate">{{ post.date | date:"%m-%d" }}</p> -->
+            <p class="post-metadate">{{ post.date | date:"%m-%d" }}</p>
         </div>
         <hr>
        {% if forloop.last %}</div>{% endif %}
