@@ -93,6 +93,47 @@ my_command = ["osascript", "notification.scpt", new_file, "Conversion Finished"]
 
 如视频中所展示的，整个过程不到2秒，可以将格式各异的Office文件统一转换为PDF
 
+## 制作Automator动作
+
+为了方便没有LaunchBar的人使用，在这里制作了同一动作的Automator版本，相比LaunchBar的动作，目前无法针对每一个文件发送完成通知，只能全部完成之后发送一个通知。
+
+你可以在[这里](https://cl.ly/07131p1Y241e)下载这个Automator workflow，具体过程如下：
+![](http://p4cxmty15.bkt.clouddn.com/Screen Shot 2018-04-17 at 23.34.42.png)
+在Automatic中新建一个workflow，这里选择Service，以便于选中文件之后右键在服务中找到这个workflow
+ ![](http://p4cxmty15.bkt.clouddn.com/Screen Shot 2018-04-17 at 23.32.25.png)
+接着按照图片里标记的顺序来创建这个动作即可
+1. 把“Service receives selected”这里改为“documents”，因为我们处理的对象是office文档
+2. 应用环境选择Finder 
+3. 添加一个动作“Get Selected Finder Items”，因为我们处理的对象是Finder里的文件
+4. 添加运行脚本动作“Run Shell Script”并将语言选择为Python
+5. 把下面的一段代码粘贴上去，注意这里的代码和上一节的完全一样，只是去掉了通知部分代码，因为我不清楚怎么把通知脚本内嵌到这个workflow里，只能采用别的方式弹出通知
+6. 添加弹出通知动作“Display Notification”，标题和副标题可以自己选择
+7. 保存workflow，大功告成，我这里给这个workflow取的名字是“convertoPDF”
+
+	
+```
+    #!/usr/bin/env python
+	#
+	import sys
+	import subprocess as sp
+	import os
+	import json
+	import shutil
+	
+	my_env = os.environ.copy()
+	my_env["PATH"] = "/usr/local/bin:" + my_env["PATH"]
+	# Note: The first argument is the script's path
+	
+	for arg in sys.argv[1:]:
+	        fileFolder = os.path.dirname(arg)
+	        new_file= os.path.basename(arg)
+	        my_command = ["soffice", "--convert-to", "pdf", arg, "--outdir", fileFolder]
+	        sp.check_output(my_command, env=my_env)
+```
+
+使用起来也很简单，选中需要转换的Office文档，右键，再服务里选择“convertoPDF”即可
+![](http://p4cxmty15.bkt.clouddn.com/Capto_Capture 2018-04-17_23-57-09_-fs8.png)
+
 ## 最后
 理论上任何针对文件的Terminal命令都可以通过制作LaunchBar动作的方式将其操作简化。
 
