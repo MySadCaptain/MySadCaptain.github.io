@@ -1,8 +1,14 @@
 ---
-title: 答疑汇总 01 - 少数派
-date: 2019-08-27T15:19:41-04:00
-author: Matt
-layout: post
+layout:     post           
+comments: true
+title:      答疑汇总 01              # 标题 
+subtitle:   
+date:       2019-08-27             # 时间
+author:     Matt                   
+header-img: img/post-bg-desk.jpg    
+catalog: true                      
+tags:                               #标签
+    - App
 ---
 
 《高效信息管理术》已经完成了所有内容的更新，希望通过这 30 多篇的教程，能让你有所收获。未来我会持续进行答疑，并将答疑汇总发布，这是答疑汇总的第一期。
