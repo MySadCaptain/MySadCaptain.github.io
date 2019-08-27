@@ -33,7 +33,7 @@ tags:                               #标签
 
 我的建议是在笔记内记录视频的基本信息和链接，然后把要点直接记录到这条笔记中，这样不仅保持印象笔记本身相对轻量，还能方便检索到相关信息，如下图：
 
-![]https://i.imgur.com/iERsk61.jpg)
+![](https://i.imgur.com/iERsk61.jpg)
 
 ![](https://i.imgur.com/asux67D.jpg)
 
