@@ -33,7 +33,7 @@ filename为待转换的文件。
 2. cd 到待转换的文件所在文件夹
 3. 执行`soffice --convert-to pdf *.ppt` 或者`soffice --convert-to pdf *.doc`即可
 
-![](http://p4cxmty15.bkt.clouddn.com/Screen Shot 2018-04-15 at 23.34.59.png)
+![](https://i.imgur.com/SHFABZv.png)
 
 \*是通配符，代替零个、单个或多个字符，\*.ppt会匹配所有格式为ppt的文件，如果需要转换的文件中既有ppt又有word文件，可以通过`soffice --convert-to pdf *`来实现，\*会匹配当前目录下所有文件。
 
@@ -98,9 +98,9 @@ my_command = ["osascript", "notification.scpt", new_file, "Conversion Finished"]
 为了方便没有LaunchBar的人使用，在这里制作了同一动作的Automator版本，相比LaunchBar的动作，目前无法针对每一个文件发送完成通知，只能全部完成之后发送一个通知。
 
 你可以在[这里](https://cl.ly/07131p1Y241e)下载这个Automator workflow，具体过程如下：
-![](http://p4cxmty15.bkt.clouddn.com/Screen Shot 2018-04-17 at 23.34.42.png)
+![](https://i.imgur.com/frzs21f.png)
 在Automatic中新建一个workflow，这里选择Service，以便于选中文件之后右键在服务中找到这个workflow
- ![](http://p4cxmty15.bkt.clouddn.com/Screen Shot 2018-04-17 at 23.32.25.png)
+ ![](https://i.imgur.com/0EdJ7nu.png)
 接着按照图片里标记的顺序来创建这个动作即可
 1. 把“Service receives selected”这里改为“documents”，因为我们处理的对象是office文档
 2. 应用环境选择Finder 
@@ -132,7 +132,7 @@ my_command = ["osascript", "notification.scpt", new_file, "Conversion Finished"]
 ```
 
 使用起来也很简单，选中需要转换的Office文档，右键，再服务里选择“convertoPDF”即可
-![](http://p4cxmty15.bkt.clouddn.com/Capto_Capture 2018-04-17_23-57-09_-fs8.png)
+![](https://i.imgur.com/9BODeap.png)
 
 ## 最后
 理论上任何针对文件的Terminal命令都可以通过制作LaunchBar动作的方式将其操作简化。
